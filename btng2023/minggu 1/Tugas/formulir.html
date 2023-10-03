@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+</head>
+<body>
+    <h2>Formulir Biodata</h2>
+    <form>
+        <table>
+            <tr>
+                <td><label for="Username">Masukkan Foto </label></td>
+                <td>: <input type="file"></td>
+            </tr>
+            <tr>
+                <td><label for="Username">Nama</label></td>
+                <td>: <input type="text" id="Username"></td>
+            </tr>
+            <tr>
+                <td><label for="NIM">NIM </label></td>
+                <td>: <input type="text" id="NIM"></td>
+            </tr>
+            <tr>
+                <td><label for="Jurusan">Jurusan </label></td>
+                <td>: <input type="text" id="Jurusan"></td>
+            </tr>
+            <tr>
+                <td><label for="Fakultas">Fakultas</label></td>
+                <td>:
+                    <select>
+                        <option>Ilmu Komputer</option>
+                        <option>Ekonomi dan Bisnis</option>
+                        <option>Kedokteran</option>
+                        <option>Bahasa dan Sastra</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="datemax">Tanggal Lahir</label>
+                </td>
+                <td>
+                    : <input type="date" id="datemax" name="datemax" max="2050-12-31"><br>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Angkatan">Angkatan </label></td>
+                <td>: <input type="text" id="Angkatan"></td>
+            </tr>
+            <tr>
+                <td><label for="Kelamin">Jenis Kelamin</label></td>
+                <td>:
+                    <input type="radio" id="Laki-laki" name="gender">
+                    <label for="Laki-laki">Laki-laki</label>
+                    <input type="radio" id="Perempuan" name="gender">
+                    <label for="Perempuan">Perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td>: <input type="text" id="Email"></td>
+            </tr>
+        </table>
+        <br>
+        <button type="submit">Submit</button> 
+        <button type="reset">Reset</button> 
+        <button type="button"><a href="biodata.html">Biodata</a></button>
+    </form>
+</body>
+</html>
