@@ -1,0 +1,70 @@
+h1{
+    color: violet;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+p{
+    font-size: 25px;
+    background-color: violet;
+}
+
+span{
+    color: violet;
+    text-decoration: underline;
+}
+
+.container{
+    box-shadow: 10px 13px 0 -1px violet;
+}
+
+#judul1{
+    font-weight: 800;
+    color: violet;
+    text-decoration: underline;
+}
+#judul2{
+    font-weight: 800;
+    color: violet;
+    text-decoration: underline;
+}
+.content{
+    background-color: aqua;
+}
+
+.container2{
+    color: violet;
+}
+
+.head1{
+    text-decoration: underline;
+}
+.container2 .content{
+    background-color: aqua;
+}
+.container2 p{
+    font-size: 20px;
+}
+
+.box{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+.box a{
+    color: violet;
+    font-size: 20px;
+}
+
+.box:hover {
+    background-color: violet;
+}
+
+.box a:hover{
+    background-color: violet;
+}
+
+.box:hover > a{
+    color: aqua;
+}
