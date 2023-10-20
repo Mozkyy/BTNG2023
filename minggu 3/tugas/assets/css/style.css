@@ -1,0 +1,12 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-light{
+    background-color: #edf4ff !important;
+}
+
+.testimoni .img{
+    width: 5px;
+    height: 5px;
+}
